@@ -5,8 +5,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>WeSee</title>
+<title>hamohamo</title>
+
+<!-- 구글폰트 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap" rel="stylesheet">
+
 <style>
+*{
+	font-family: 'Gothic A1', sans-serif;
+}
 body {
 	width: 1024px;
 	height: 860px;
@@ -15,11 +24,17 @@ body {
 	max-height: 860px;
 }
 
+.hamo{
+	text-align: center;
+	margin-top : 100px;
+	margin-bottom : 70px;
+	padding-bottom : 50px;
+}
+
 .top-header {
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 5px solid;
-	border-bottom: 5px solid;
+	border-bottom: 10px dotted #FF8551;
 }
 
 .titile {
@@ -47,12 +62,6 @@ body {
 	line-height: 80px;
 }
 
-h1 {
-	text-align: center;
-	text-decoration-line: none;
-	color: black;
-	font-size: 50px;
-}
 
 .downheader {
 	display: flex;
@@ -90,9 +99,9 @@ table>tr>th {
 	<div class="top-header">
 		<div style="width: 140px;"></div>
 		<div class="title">
-			<h1>
-				<a href="/WeSee/">WeSee</a>
-			</h1>
+			<div class="hamo">
+			<img src="Resource/hamog.jpg" width="220" height="60">
+		</div>
 		</div>
 
 

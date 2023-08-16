@@ -27,8 +27,8 @@ body {
 .hamo{
 	text-align: center;
 	margin-top : 100px;
-	margin-bottom : 150px;
-	padding-bottom : 110px;
+	margin-bottom : 70px;
+	padding-bottom : 50px;
 	border-bottom: 10px dotted #FF8551;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .join{
-	margin-top : 10px;
+	margin : 10px;
 }
 
 .bigbox {
@@ -150,16 +150,19 @@ input {
 }
 
 
-
+.joinBB{
+	display : flex;
+	justify-content : center;
+}
 
 .joinB {
     width: 150px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 10px;
-    background-color: #9BCDD2;
-    cursor: pointer;
-    border-style : none;
+	height: 50px;
+	background-color: #9BCDD2;
+	border-style: none;
+	cursor: pointer;
+	font-size : 21px;
+	border-radius : 10%;
 }
 
 .joinB:hover{
@@ -210,7 +213,7 @@ input {
                 </div>
                 
             <div class="joinBB">
-                <input class="joinB" type="submit" value="가입" />
+                <button class="joinB" type="submit">가입</button>
             </div>
             </form>
         </div>
